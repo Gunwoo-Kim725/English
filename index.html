@@ -5,6 +5,7 @@
     <title>해석이론</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="w3.css">
+    <script src="script.js"></script>
     <style>
         a:link,
         a:visited {
@@ -22,37 +23,14 @@
             color: white;
         }
     </style>
-    <script>
-    function playItHere(e, link) {
-        var audio = document.createElement("audio");
-        var src = document.createElement("source");
-        src.src = link.href;
-        audio.appendChild(src);
-        audio.play();
-        e.preventDefault();
-    }
-    
-    function w3_open() {
-        document.getElementById("main").style.marginLeft = "105px";
-        document.getElementById("mySidebar").style.width = "105px";
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("openNav").style.display = 'none';
-    }
-    
-    function w3_close() {
-        document.getElementById("main").style.marginLeft = "0%";
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("openNav").style.display = "inline-block";
-    }
-    </script>
 </head>
 
 <body>
 
     <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
         <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
-        <a href="GK01.html" class="w3-bar-item w3-button">GK01</a>
-        <a href="#" class="w3-bar-item w3-button">GK02</a>
+        <a href="index.html" class="w3-bar-item w3-button">GK01</a>
+        <a href="GK02.html" class="w3-bar-item w3-button">GK02</a>
         <a href="#" class="w3-bar-item w3-button">GK03</a>
     </div>
 
@@ -60,16 +38,35 @@
 
         <div class="w3-indigo">
             <button id="openNav" class="w3-button w3-indigo w3-xlarge" onclick="w3_open()">&#9776;</button>
-            <div class="w3-container">
-                <h1>Main Page</h1>
+            <div class="w3-container w3-indigo">
+                <h1>GK01</h1>
             </div>
         </div>
 
 
-        <div class="w3-container">
-            <p></p>
-            
-        </div>
+ 
+
+            <!-- 타입박스 시작 -->
+            <div class="w3-panel w3-padding-large w3-card-4 w3-light-grey">
+                <!-- 타입명 -->
+                <div class="w3-panel w3-blue">
+                    <h3>
+                        TYPE 1. </h3>
+                </div>
+
+                <!-- 문장-->
+                <p class="w3-xlarge"><a href="mp3\GK01\GK01_01.mp3" onclick="playItHere(event, this)">
+                    </a></p>
+                <!-- 해석/어휘 -->
+                <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                    <p>
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                </div> <!-- 문장, 어휘 끝 -->
+            </div>
+     
 
     </div>
 
