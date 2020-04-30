@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>해석이론</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <a href="index.html" class="w3-bar-item w3-button">GK01</a>
+        <a href="GK02.html" class="w3-bar-item w3-button">GK02</a>
+        <a href="GK03.html" class="w3-bar-item w3-button">GK03</a>
+        <a href="GK04.html" class="w3-bar-item w3-button">GK04</a>
+        <a href="GK05.html" class="w3-bar-item w3-button">GK05</a>
+        <a href="GK06.html" class="w3-bar-item w3-button">GK06</a>
+        <a href="GK07.html" class="w3-bar-item w3-button">GK07</a>
+        <a href="GK08.html" class="w3-bar-item w3-button">GK08</a>
+        <a href="GK09.html" class="w3-bar-item w3-button">GK09</a>
+        <a href="GK10.html" class="w3-bar-item w3-button">GK10</a>
+        <a href="GK11.html" class="w3-bar-item w3-button">GK11</a>
+        <a href="GK12.html" class="w3-bar-item w3-button">GK12</a>
+        <a href="GK13.html" class="w3-bar-item w3-button">GK13</a>
+        <a href="GK14.html" class="w3-bar-item w3-button">GK14</a>
+        <a href="GK15.html" class="w3-bar-item w3-button">GK15</a>
+        <a href="GK16.html" class="w3-bar-item w3-button">GK16</a>
+        <a href="GK17.html" class="w3-bar-item w3-button">GK17</a>
+        <a href="GK18.html" class="w3-bar-item w3-button">GK18</a>
+        <a href="GK19.html" class="w3-bar-item w3-button">GK19</a>
+        <a href="GK20.html" class="w3-bar-item w3-button">GK20</a>
+        <a href="GK21.html" class="w3-bar-item w3-button">GK21</a>
+        <a href="GK22.html" class="w3-bar-item w3-button">GK22</a>
+        <a href="GK23.html" class="w3-bar-item w3-button">GK23</a>
+        <a href="GK24.html" class="w3-bar-item w3-button">GK24</a>
+        <a href="GK25.html" class="w3-bar-item w3-button">GK25</a>
+        <a href="GK26.html" class="w3-bar-item w3-button">GK26</a>
+        <a href="GK27.html" class="w3-bar-item w3-button">GK27</a>
+        <a href="GK28.html" class="w3-bar-item w3-button">GK28</a>
+        <a href="GK29.html" class="w3-bar-item w3-button">GK29</a>
+        <a href="GK30.html" class="w3-bar-item w3-button">GK30</a>
+        <a href="GK31.html" class="w3-bar-item w3-button">GK31</a>
+        <a href="GK32.html" class="w3-bar-item w3-button">GK32</a>
+        <a href="GK33.html" class="w3-bar-item w3-button">GK33</a>
+        <a href="GK34.html" class="w3-bar-item w3-button">GK34</a>
+        <a href="GK35.html" class="w3-bar-item w3-button">GK35</a>
+        <a href="GK36.html" class="w3-bar-item w3-button">GK36</a>
+        <a href="GK37.html" class="w3-bar-item w3-button">GK37</a>
+        <a href="GK38.html" class="w3-bar-item w3-button">GK38</a>
+        <a href="GK39.html" class="w3-bar-item w3-button">GK39</a>
+        <a href="GK40.html" class="w3-bar-item w3-button">GK40</a>
+        <a href="GK41.html" class="w3-bar-item w3-button">GK41</a>
+        <a href="GK42.html" class="w3-bar-item w3-button">GK42</a>
+        <a href="GK43.html" class="w3-bar-item w3-button">GK43</a>
+        <a href="GK44.html" class="w3-bar-item w3-button">GK44</a>
+        <a href="GK45.html" class="w3-bar-item w3-button">GK45</a>
+        <a href="GK46.html" class="w3-bar-item w3-button">GK46</a>
+        <a href="GK47.html" class="w3-bar-item w3-button">GK47</a>
+        <a href="GK48.html" class="w3-bar-item w3-button">GK48</a>
+        <a href="GK49.html" class="w3-bar-item w3-button">GK49</a>
+        <a href="GK50.html" class="w3-bar-item w3-button">GK50</a>
+        <a href="GK51.html" class="w3-bar-item w3-button">GK51</a>
+        <a href="GK52.html" class="w3-bar-item w3-button">GK52</a>
+        <a href="GK53.html" class="w3-bar-item w3-button">GK53</a>
+        <a href="GK54.html" class="w3-bar-item w3-button">GK54</a>
+        <a href="GK55.html" class="w3-bar-item w3-button">GK55</a>
+        <a href="GK56.html" class="w3-bar-item w3-button">GK56</a>
+        <a href="GK57.html" class="w3-bar-item w3-button">GK57</a>
+        <a href="GK58.html" class="w3-bar-item w3-button">GK58</a>
+        <a href="GK59.html" class="w3-bar-item w3-button">GK59</a>
+        <a href="GK60.html" class="w3-bar-item w3-button">GK60</a>
+        <a href="GK61.html" class="w3-bar-item w3-button">GK61</a>
+        <a href="GK62.html" class="w3-bar-item w3-button">GK62</a>
+        <a href="GK63.html" class="w3-bar-item w3-button">GK63</a>
+        <a href="GK64.html" class="w3-bar-item w3-button">GK64</a>
+        <a href="GK65.html" class="w3-bar-item w3-button">GK65</a>
+        <a href="GK66.html" class="w3-bar-item w3-button">GK66</a>
+        <a href="GK67.html" class="w3-bar-item w3-button">GK67</a>
+        <a href="GK68.html" class="w3-bar-item w3-button">GK68</a>
+        <a href="GK69.html" class="w3-bar-item w3-button">GK69</a>
+        <a href="GK70.html" class="w3-bar-item w3-button">GK70</a>
+        <a href="GK71.html" class="w3-bar-item w3-button">GK71</a>
+        <a href="GK72.html" class="w3-bar-item w3-button">GK72</a>
+        <a href="GK73.html" class="w3-bar-item w3-button">GK73</a>
+        <a href="GK74.html" class="w3-bar-item w3-button">GK74</a>
+        <a href="GK75.html" class="w3-bar-item w3-button">GK75</a>
+        <a href="GK76.html" class="w3-bar-item w3-button">GK76</a>
+        <a href="GK77.html" class="w3-bar-item w3-button">GK77</a>
+        <a href="GK78.html" class="w3-bar-item w3-button">GK78</a>
+        <a href="GK79.html" class="w3-bar-item w3-button">GK79</a>
+        <a href="GK80.html" class="w3-bar-item w3-button">GK80</a>
+        <a href="GK81.html" class="w3-bar-item w3-button">GK81</a>
+        <a href="GK82.html" class="w3-bar-item w3-button">GK82</a>
+        <a href="GK83.html" class="w3-bar-item w3-button">GK83</a>
+        <a href="GK84.html" class="w3-bar-item w3-button">GK84</a>
+        <a href="GK85.html" class="w3-bar-item w3-button">GK85</a>
+        <a href="GK86.html" class="w3-bar-item w3-button">GK86</a>
+        <a href="GK87.html" class="w3-bar-item w3-button">GK87</a>
+        <a href="GK88.html" class="w3-bar-item w3-button">GK88</a>
+        <a href="GK89.html" class="w3-bar-item w3-button">GK89</a>
+        <a href="GK90.html" class="w3-bar-item w3-button">GK90</a>
+        <a href="GK91.html" class="w3-bar-item w3-button">GK91</a>
+        <a href="GK92.html" class="w3-bar-item w3-button">GK92</a>
+        <a href="GK93.html" class="w3-bar-item w3-button">GK93</a>
+        <a href="GK94.html" class="w3-bar-item w3-button">GK94</a>
+        <a href="GK95.html" class="w3-bar-item w3-button">GK95</a>
+        <a href="GK96.html" class="w3-bar-item w3-button">GK96</a>
+        <a href="GK97.html" class="w3-bar-item w3-button">GK97</a>
+        <a href="GK98.html" class="w3-bar-item w3-button">GK98</a>
+        <a href="GK99.html" class="w3-bar-item w3-button">GK99</a>
+    </div>
+
+    <div id="main">
+
+        <div class="w3-indigo">
+            <button id="openNav" class="w3-button w3-indigo w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container w3-indigo">
+                <h1>
+                    <!-- GK -->
+                    GK24</h1>
+                <p>
+                    핵명사구 -- 다중결합
+                    <!-- 설명 -->
+                </p>
+            </div>
+        </div>
+
+        <!-- 타입박스 시작 -->
+        <div class="w3-panel w3-padding-large w3-card-4 w3-light-grey">
+            <div class="w3-panel w3-blue">
+                <h3>
+                    <!-- 타입명 작성 -->
+                    TYPE 01. general + specific(수식어) + specific(수식어)</h3>
+            </div>
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_01.mp3" onclick="playItHere(event, this)">
+                    Aspects of the natural world, such as the changing seasons, are explained in nature myths.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_02.mp3" onclick="playItHere(event, this)">
+                    The people in Third World countries who can not afford or find modern medical doctors should use
+                    traditional medicine rather than no medicine at all.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_03.mp3" onclick="playItHere(event, this)">
+                    The frail bridge of Time, on which we tread, sinks back into eternity at every step we take.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_04.mp3" onclick="playItHere(event, this)">
+                    Masculinization of females, which includes baldness or hair growth, can be caused by an overdose of
+                    steroids.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_05.mp3" onclick="playItHere(event, this)">
+                    The extra agitation of the nervous system that is called depression is inescapable for many
+                    adults.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_06.mp3" onclick="playItHere(event, this)">
+                    By a webmail translation program, people in 191 countries speaking 136 languages can have meaningful
+                    contact with each other.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_07.mp3" onclick="playItHere(event, this)">
+                    Apparently, the region of the brain called the hypothalamus is also involved in food intake.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_08.mp3" onclick="playItHere(event, this)">
+                    Certain gases in our atmosphere, called greenhouse gases, absorb most of the infrared radiation.</a>
+            </p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_09.mp3" onclick="playItHere(event, this)">
+                    Furthermore, this new device can spot someone, such as an airplane hijacker, who plans a crime.</a>
+            </p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_10.mp3" onclick="playItHere(event, this)">
+                    People hunted the parrots and chopped down the forests where they lived. They also brought
+                    predators, such as cats, rats, and dogs, that killed the parrots easily.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_11.mp3" onclick="playItHere(event, this)">
+                    You can have some information for the police that you think may be useful. Then, you should report
+                    it right away.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_12.mp3" onclick="playItHere(event, this)">
+                    In 1954 Swanson created the first TV Dinner, a frozen meal packaged in a little foil tray that could
+                    be rushed from the oven to the living room and eaten in front of the television set.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_13.mp3" onclick="playItHere(event, this)">
+                    The student council consists of seven students, including the president, all elected by
+                    students.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_14.mp3" onclick="playItHere(event, this)">
+                    Contact lenses are ideal for fast games, like tennis, that require rapid eye movements.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_15.mp3" onclick="playItHere(event, this)">
+                    We recognize humans as the only one among the living organisms that is able to change its behavior
+                    for the sake of other species.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_16.mp3" onclick="playItHere(event, this)">
+                    He who would do some great thing in this short life must apply himself to work with such a
+                    concentration of his forces as to idle spectators looks like madness.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_17.mp3" onclick="playItHere(event, this)">
+                    The firm should compensate him for the great salary he would have made, which he figured was $50
+                    million.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+        </div> <!-- 타입박스 끝 -->
+
+        <!-- 타입박스 시작 -->
+        <div class="w3-panel w3-padding-large w3-card-4 w3-light-grey">
+            <div class="w3-panel w3-blue">
+                <h3>
+                    <!-- 타입명 작성 -->
+                    TYPE 02. general + specific(보충어) + specific(수식어)</h3>
+            </div>
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_18.mp3" onclick="playItHere(event, this)">
+                    Habits of eating too much that are set in infancy cannot be changed later.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_19.mp3" onclick="playItHere(event, this)">
+                    Radar was a method of locating invisible objects, used first in world war Ⅱ.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+            <!-- 문장-->
+            <p class="w3-xlarge"><a href="mp3\GK24\GK24_20.mp3" onclick="playItHere(event, this)">
+                    Franklin's experiment ended the superstitious belief ― widespread at the time ― that lightning
+                    resulted from God's displeasure.</a></p>
+            <!-- 해석/어휘 -->
+            <div class="w3-panel w3-leftbar w3-border-indigo w3-white">
+                <p>
+                    해석
+                    <!-- 해석 -->
+                </p>
+                <!-- 어휘 -->
+                <p>
+                    <br>
+                </p>
+            </div> <!-- 문장, 어휘 끝 -->
+
+        </div> <!-- 타입박스 끝 -->
+
+    </div>
+
+</body>
+
+</html>
